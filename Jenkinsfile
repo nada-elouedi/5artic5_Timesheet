@@ -4,7 +4,7 @@ pipeline {
     environment {
         GITHUB_URL = 'https://github.com/nada-elouedi/5artic5_Timesheet.git'
         BRANCH_NAME = 'NadaElouedi5arctic5' // Change this if needed
-        GITHUB_CREDENTIALS_ID = 'githubtoken' // The ID of your GitHub token stored in Jenkins
+        GITHUB_CREDENTIALS_ID = 'token' // The ID of your GitHub token stored in Jenkins
     }
 
     stages {
